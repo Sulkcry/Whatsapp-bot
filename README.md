@@ -1,2 +1,1 @@
-# Whatsapp-bot
-Um bot de whatsapp 
+# WhatsApp Bot\n\nBot do WhatsApp usando [Baileys](https://github.com/WhiskeySockets/Baileys) e geração de texto pela API do HuggingFace.\n\n## Instalação\n\n```bash\ngit clone https://github.com/Sulkcry/whatsapp-bot.git\ncd whatsapp-bot\nnpm install\ncp .env.example .env\n# Edite o arquivo .env e coloque sua chave HuggingFace em HF_TOKEN\n```\n\n## Uso\n\n```bash\nnpm start\n```\nEscaneie o QR Code que aparecer no terminal com o aplicativo do WhatsApp.\n\n## Comando disponível\n\n- `.crieme um texto <prompt>`  \n  Exemplo:  \n  `.crieme um texto sobre gatos engraçados`\n\nO bot irá responder com um texto gerado pela IA.\n\n## Créditos\n\n- Baileys\n- HuggingFace
